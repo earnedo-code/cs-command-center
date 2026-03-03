@@ -1,0 +1,166 @@
+{
+  "date": "2026-03-03",
+  "cases": {
+    "total": 381,
+    "resolved": 354,
+    "attending": 12,
+    "idle": 15,
+    "waiting": 0
+  },
+  "csat": {
+    "avg": 4.44,
+    "count": 160
+  },
+  "frt": {
+    "avg_min": 2.3,
+    "median_min": 1.0,
+    "ok": 288,
+    "yellow": 12,
+    "red": 0
+  },
+  "agents": {
+    "top3": [
+      {
+        "name": "Nerean Freitas",
+        "score": 94.8,
+        "cases": 63,
+        "resolved": 61,
+        "avg_frt": 1.9,
+        "avg_csat": 4.6
+      },
+      {
+        "name": "Nelio Freitas",
+        "score": 93.2,
+        "cases": 49,
+        "resolved": 48,
+        "avg_frt": 1.0,
+        "avg_csat": 4.3
+      },
+      {
+        "name": "Sugli Perez",
+        "score": 92.5,
+        "cases": 29,
+        "resolved": 29,
+        "avg_frt": 3.8,
+        "avg_csat": 4.44
+      }
+    ],
+    "bottom2": [
+      {
+        "name": "Stella Oliveros",
+        "score": 70.4,
+        "cases": 5,
+        "resolved": 1,
+        "avg_frt": 1.5,
+        "avg_csat": 5
+      },
+      {
+        "name": "Mayra Aguilar",
+        "score": 65.4,
+        "cases": 77,
+        "resolved": 64,
+        "avg_frt": 0,
+        "avg_csat": 0
+      }
+    ],
+    "total_agents": 13
+  },
+  "queues": [
+    {
+      "name": "ATC",
+      "count": 261
+    },
+    {
+      "name": "Comunidad Retorna",
+      "count": 75
+    },
+    {
+      "name": "Onboarding",
+      "count": 41
+    },
+    {
+      "name": "Redes Sociales",
+      "count": 4
+    }
+  ],
+  "ai": {
+    "total_convos": 585,
+    "ai_convos": 523,
+    "human_convos": 0,
+    "contained": 523,
+    "containment_rate": 100.0,
+    "meaningful": 0,
+    "fallback": 0
+  },
+  "intents": [
+    {
+      "name": "greeting",
+      "count": 320
+    },
+    {
+      "name": "liquidez_a_venezuela",
+      "count": 168
+    },
+    {
+      "name": "agente",
+      "count": 127
+    },
+    {
+      "name": "falla_de_la_app",
+      "count": 110
+    },
+    {
+      "name": "specific_remittance_intent",
+      "count": 71
+    }
+  ],
+  "flows": [
+    {
+      "name": "Main",
+      "count": 324
+    },
+    {
+      "name": "Ayuda adicional",
+      "count": 216
+    },
+    {
+      "name": "PreHandoff",
+      "count": 173
+    },
+    {
+      "name": "Handoff",
+      "count": 171
+    },
+    {
+      "name": "FALLA: ERRORES DE PAYOUT",
+      "count": 164
+    }
+  ],
+  "countries": [
+    {
+      "name": "ES",
+      "count": 223
+    },
+    {
+      "name": "CL",
+      "count": 142
+    },
+    {
+      "name": "CO",
+      "count": 86
+    },
+    {
+      "name": "BR",
+      "count": 43
+    },
+    {
+      "name": "VE",
+      "count": 29
+    }
+  ],
+  "providers": {
+    "whatsapp": 576,
+    "facebook": 1,
+    "webchat": 8
+  }
+}
