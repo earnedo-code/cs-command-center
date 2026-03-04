@@ -1,166 +1,321 @@
 {
   "date": "2026-03-03",
-  "cases": {
-    "total": 381,
-    "resolved": 354,
-    "attending": 12,
-    "idle": 15,
-    "waiting": 0
+  "kpis": {
+    "total_cases": 564,
+    "total_convos": 972,
+    "global_csat": 4.53,
+    "global_frt_min": 2.3,
+    "ai_pct": 89.7,
+    "frt_sem": "green",
+    "csat_sem": "green"
   },
-  "csat": {
-    "avg": 4.44,
-    "count": 160
+  "stages": {
+    "PayIn": {
+      "count": 103,
+      "avg_csat": 4.28,
+      "avg_frt_min": 1.9,
+      "semaphore": "yellow",
+      "frt_semaphore": "green"
+    },
+    "PayOut": {
+      "count": 78,
+      "avg_csat": 4.18,
+      "avg_frt_min": 2.4,
+      "semaphore": "yellow",
+      "frt_semaphore": "green"
+    },
+    "KYC/Cuenta": {
+      "count": 95,
+      "avg_csat": 4.81,
+      "avg_frt_min": 2.2,
+      "semaphore": "yellow",
+      "frt_semaphore": "green"
+    },
+    "Remesas": {
+      "count": 102,
+      "avg_csat": 4.76,
+      "avg_frt_min": 3.0,
+      "semaphore": "yellow",
+      "frt_semaphore": "green"
+    },
+    "Reembolsos": {
+      "count": 0,
+      "avg_csat": null,
+      "avg_frt_min": null,
+      "semaphore": "gray",
+      "frt_semaphore": "gray"
+    },
+    "Otros": {
+      "count": 186,
+      "avg_csat": 4.62,
+      "avg_frt_min": 1.6,
+      "semaphore": "yellow",
+      "frt_semaphore": "green"
+    }
   },
-  "frt": {
-    "avg_min": 2.3,
-    "median_min": 1.0,
-    "ok": 288,
-    "yellow": 12,
-    "red": 0
+  "agents": [
+    {
+      "name": "Mayra Aguilar (Senior)",
+      "raw_name": "Mayra Aguilar",
+      "count": 77,
+      "avg_csat": null,
+      "avg_frt_min": null,
+      "frt_sem": "gray",
+      "csat_sem": "gray",
+      "is_senior": true
+    },
+    {
+      "name": "Helen Castillo (Senior)",
+      "raw_name": "Helen Castillo",
+      "count": 74,
+      "avg_csat": null,
+      "avg_frt_min": null,
+      "frt_sem": "gray",
+      "csat_sem": "gray",
+      "is_senior": true
+    },
+    {
+      "name": "Nerean Freitas",
+      "raw_name": "Nerean Freitas",
+      "count": 68,
+      "avg_csat": 4.65,
+      "avg_frt_min": 1.8,
+      "frt_sem": "green",
+      "csat_sem": "green",
+      "is_senior": false
+    },
+    {
+      "name": "Belkys Garcia",
+      "raw_name": "Belkys Garcia",
+      "count": 55,
+      "avg_csat": 4.63,
+      "avg_frt_min": 4.3,
+      "frt_sem": "green",
+      "csat_sem": "green",
+      "is_senior": false
+    },
+    {
+      "name": "Nelio Freitas",
+      "raw_name": "Nelio Freitas",
+      "count": 51,
+      "avg_csat": 4.23,
+      "avg_frt_min": 1.0,
+      "frt_sem": "green",
+      "csat_sem": "yellow",
+      "is_senior": false
+    },
+    {
+      "name": "Soledad Peralta",
+      "raw_name": "Soledad Peralta",
+      "count": 44,
+      "avg_csat": 4.09,
+      "avg_frt_min": 1.4,
+      "frt_sem": "green",
+      "csat_sem": "yellow",
+      "is_senior": false
+    },
+    {
+      "name": "Diego Colmenares",
+      "raw_name": "Diego Colmenares",
+      "count": 40,
+      "avg_csat": 4.35,
+      "avg_frt_min": 1.5,
+      "frt_sem": "green",
+      "csat_sem": "green",
+      "is_senior": false
+    },
+    {
+      "name": "Egalis Jimenez",
+      "raw_name": "Egalis Jimenez",
+      "count": 36,
+      "avg_csat": 4.62,
+      "avg_frt_min": 1.1,
+      "frt_sem": "green",
+      "csat_sem": "green",
+      "is_senior": false
+    },
+    {
+      "name": "Sugli Perez",
+      "raw_name": "Sugli Perez",
+      "count": 29,
+      "avg_csat": 4.44,
+      "avg_frt_min": 3.8,
+      "frt_sem": "green",
+      "csat_sem": "green",
+      "is_senior": false
+    },
+    {
+      "name": "Ashley Cruz",
+      "raw_name": "Ashley Cruz",
+      "count": 22,
+      "avg_csat": 5.0,
+      "avg_frt_min": 4.0,
+      "frt_sem": "green",
+      "csat_sem": "green",
+      "is_senior": false
+    },
+    {
+      "name": "Ana Carolina Arias",
+      "raw_name": "Ana Carolina Arias",
+      "count": 21,
+      "avg_csat": 4.67,
+      "avg_frt_min": 2.3,
+      "frt_sem": "green",
+      "csat_sem": "green",
+      "is_senior": false
+    },
+    {
+      "name": "Juan Vega",
+      "raw_name": "Juan Vega",
+      "count": 17,
+      "avg_csat": 5.0,
+      "avg_frt_min": 1.9,
+      "frt_sem": "green",
+      "csat_sem": "green",
+      "is_senior": false
+    },
+    {
+      "name": "Miguel Santana",
+      "raw_name": "Miguel Santana",
+      "count": 13,
+      "avg_csat": 5.0,
+      "avg_frt_min": 1.9,
+      "frt_sem": "green",
+      "csat_sem": "green",
+      "is_senior": false
+    },
+    {
+      "name": "Alejandra Montoya",
+      "raw_name": "Alejandra Montoya",
+      "count": 12,
+      "avg_csat": 5.0,
+      "avg_frt_min": 5.1,
+      "frt_sem": "green",
+      "csat_sem": "green",
+      "is_senior": false
+    }
+  ],
+  "intents": {
+    "problems": {
+      "falla_de_la_app": 199,
+      "cuenta_de_vb_suspendida": 95,
+      "datos_errados": 83,
+      "cuenta_limitada": 50
+    },
+    "opportunities": {
+      "liquidez_a_venezuela": 281
+    },
+    "all": {
+      "liquidez_a_venezuela": 281,
+      "falla_de_la_app": 199,
+      "specific_remittance_intent": 128,
+      "cuenta_de_vb_suspendida": 95,
+      "datos_errados": 83,
+      "envío_expirado": 73,
+      "cuenta_limitada": 50,
+      "aumentar_limite": 1
+    }
   },
-  "agents": {
-    "top3": [
+  "flows": {
+    "problems": {
+      "FALLA: ERRORES DE PAYOUT": 271,
+      "Fallback": 215,
+      "FALLA: ERRORES APP": 184,
+      "FALLA: ERRORES DE PAYIN": 91
+    },
+    "all": {
+      "Main": 558,
+      "Ayuda adicional": 350,
+      "PreHandoff": 291,
+      "Handoff": 288,
+      "RATING": 284,
+      "FALLA: ERRORES DE PAYOUT": 271,
+      "Fallback": 215,
+      "FALLA: ERRORES APP": 184,
+      "Confirmar País": 128,
+      "Bye": 116,
+      "Estados de Remesa": 102,
+      "FALLA: ERRORES DE PAYIN": 91,
+      "Datos Errados": 77,
+      "1.3 Envío expirado": 75,
+      "Cuenta Limitada": 46,
+      "1. Estado de mi remesa": 46,
+      "3. Tiempos de entrega": 43,
+      "Nueva consulta": 42,
+      "1.1 Ver estado de mi remesa": 37,
+      "2. Envío de dinero": 27
+    }
+  },
+  "distribution": {
+    "countries": {
+      "ES": 333,
+      "CL": 241,
+      "CO": 175,
+      "BR": 77,
+      "VE": 45,
+      "PT": 21,
+      "PE": 16,
+      "IT": 14,
+      "US": 11,
+      "DE": 10
+    },
+    "channels": {
+      "whatsapp": 962,
+      "webchat": 8,
+      "facebook": 2
+    }
+  },
+  "alerts": {
+    "agents": [],
+    "stages": [
       {
-        "name": "Nerean Freitas",
-        "score": 94.8,
-        "cases": 63,
-        "resolved": 61,
-        "avg_frt": 1.9,
-        "avg_csat": 4.6
+        "stage": "PayIn",
+        "semaphore": "yellow",
+        "avg_csat": 4.28,
+        "count": 103
       },
       {
-        "name": "Nelio Freitas",
-        "score": 93.2,
-        "cases": 49,
-        "resolved": 48,
-        "avg_frt": 1.0,
-        "avg_csat": 4.3
+        "stage": "PayOut",
+        "semaphore": "yellow",
+        "avg_csat": 4.18,
+        "count": 78
       },
       {
-        "name": "Sugli Perez",
-        "score": 92.5,
-        "cases": 29,
-        "resolved": 29,
-        "avg_frt": 3.8,
-        "avg_csat": 4.44
+        "stage": "KYC/Cuenta",
+        "semaphore": "yellow",
+        "avg_csat": 4.81,
+        "count": 95
+      },
+      {
+        "stage": "Remesas",
+        "semaphore": "yellow",
+        "avg_csat": 4.76,
+        "count": 102
+      },
+      {
+        "stage": "Otros",
+        "semaphore": "yellow",
+        "avg_csat": 4.62,
+        "count": 186
       }
     ],
-    "bottom2": [
+    "problem_flows": [
       {
-        "name": "Stella Oliveros",
-        "score": 70.4,
-        "cases": 5,
-        "resolved": 1,
-        "avg_frt": 1.5,
-        "avg_csat": 5
+        "flow": "FALLA: ERRORES APP",
+        "count": 184
       },
       {
-        "name": "Mayra Aguilar",
-        "score": 65.4,
-        "cases": 77,
-        "resolved": 64,
-        "avg_frt": 0,
-        "avg_csat": 0
+        "flow": "FALLA: ERRORES DE PAYIN",
+        "count": 91
+      },
+      {
+        "flow": "FALLA: ERRORES DE PAYOUT",
+        "count": 271
+      },
+      {
+        "flow": "Fallback",
+        "count": 215
       }
-    ],
-    "total_agents": 13
-  },
-  "queues": [
-    {
-      "name": "ATC",
-      "count": 261
-    },
-    {
-      "name": "Comunidad Retorna",
-      "count": 75
-    },
-    {
-      "name": "Onboarding",
-      "count": 41
-    },
-    {
-      "name": "Redes Sociales",
-      "count": 4
-    }
-  ],
-  "ai": {
-    "total_convos": 585,
-    "ai_convos": 523,
-    "human_convos": 0,
-    "contained": 523,
-    "containment_rate": 100.0,
-    "meaningful": 0,
-    "fallback": 0
-  },
-  "intents": [
-    {
-      "name": "greeting",
-      "count": 320
-    },
-    {
-      "name": "liquidez_a_venezuela",
-      "count": 168
-    },
-    {
-      "name": "agente",
-      "count": 127
-    },
-    {
-      "name": "falla_de_la_app",
-      "count": 110
-    },
-    {
-      "name": "specific_remittance_intent",
-      "count": 71
-    }
-  ],
-  "flows": [
-    {
-      "name": "Main",
-      "count": 324
-    },
-    {
-      "name": "Ayuda adicional",
-      "count": 216
-    },
-    {
-      "name": "PreHandoff",
-      "count": 173
-    },
-    {
-      "name": "Handoff",
-      "count": 171
-    },
-    {
-      "name": "FALLA: ERRORES DE PAYOUT",
-      "count": 164
-    }
-  ],
-  "countries": [
-    {
-      "name": "ES",
-      "count": 223
-    },
-    {
-      "name": "CL",
-      "count": 142
-    },
-    {
-      "name": "CO",
-      "count": 86
-    },
-    {
-      "name": "BR",
-      "count": 43
-    },
-    {
-      "name": "VE",
-      "count": 29
-    }
-  ],
-  "providers": {
-    "whatsapp": 576,
-    "facebook": 1,
-    "webchat": 8
+    ]
   }
 }
