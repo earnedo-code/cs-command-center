@@ -1,580 +1,773 @@
 {
-  "date": "2026-03-08",
+  "date": "2026-03-09",
   "cases": {
-    "total": 293,
+    "total": 585,
     "resolved": 0,
     "attending": 0,
     "idle": 0,
     "waiting": 0
   },
   "frt": {
-    "avg_min": 2.62,
-    "median_min": 1.03,
-    "ok": 277,
-    "yellow": 10,
-    "red": 6
+    "avg_min": 3.12,
+    "median_min": 1.29,
+    "ok": 404,
+    "yellow": 17,
+    "red": 11
   },
   "csat": {
-    "avg": 4.59,
-    "count": 151,
-    "detractors_pct": 7.3,
-    "det_count": 11
+    "avg": 4.54,
+    "count": 249,
+    "detractors_pct": 9.6,
+    "det_count": 24
   },
   "agents": [
     {
-      "name": "Nerean Freitas",
-      "raw_name": "Nerean Freitas",
-      "cases": 45,
-      "avg_frt": 1.32,
-      "med_frt": 0.58,
-      "avg_csat": 4.68,
-      "detractors": 0.0,
-      "det_count": 0,
-      "rated": 25,
-      "is_senior": false,
-      "top_country": "Europa"
-    },
-    {
-      "name": "Belkys Garcia",
-      "raw_name": "Belkys Garcia",
-      "cases": 44,
-      "avg_frt": 4.25,
-      "med_frt": 2.27,
-      "avg_csat": 4.33,
-      "detractors": 14.3,
-      "det_count": 3,
-      "rated": 21,
-      "is_senior": false,
-      "top_country": "BR"
-    },
-    {
-      "name": "Nelio Freitas",
-      "raw_name": "Nelio Freitas",
-      "cases": 40,
-      "avg_frt": 1.57,
-      "med_frt": 0.46,
-      "avg_csat": 4.58,
+      "name": "Luis Marquez",
+      "raw_name": "Luis Marquez",
+      "cases": 121,
+      "avg_frt": 3.56,
+      "med_frt": 1.47,
+      "avg_csat": 4.62,
       "detractors": 7.7,
       "det_count": 2,
       "rated": 26,
       "is_senior": false,
-      "top_country": "BR"
+      "top_country": "CL"
     },
     {
-      "name": "Diego Colmenares",
-      "raw_name": "Diego Colmenares",
-      "cases": 40,
-      "avg_frt": 1.84,
-      "med_frt": 1.03,
-      "avg_csat": 4.81,
-      "detractors": 0.0,
+      "name": "Mayra Aguilar (Senior)",
+      "raw_name": "Mayra Aguilar",
+      "cases": 68,
+      "avg_frt": 5.44,
+      "med_frt": 5.44,
+      "avg_csat": 0,
+      "detractors": 0,
       "det_count": 0,
-      "rated": 16,
-      "is_senior": false,
-      "top_country": "BR"
+      "rated": 0,
+      "is_senior": true,
+      "top_country": "Europa"
     },
     {
       "name": "Soledad Peralta",
       "raw_name": "Soledad Peralta",
-      "cases": 39,
-      "avg_frt": 1.56,
-      "med_frt": 0.7,
-      "avg_csat": 4.24,
-      "detractors": 17.6,
-      "det_count": 3,
-      "rated": 17,
+      "cases": 52,
+      "avg_frt": 4.38,
+      "med_frt": 1.49,
+      "avg_csat": 4.19,
+      "detractors": 18.5,
+      "det_count": 5,
+      "rated": 27,
       "is_senior": false,
       "top_country": "Europa"
     },
     {
-      "name": "Juan Vega",
-      "raw_name": "Juan Vega",
-      "cases": 36,
-      "avg_frt": 1.59,
-      "med_frt": 1.12,
-      "avg_csat": 4.94,
-      "detractors": 0.0,
-      "det_count": 0,
-      "rated": 18,
+      "name": "Nerean Freitas",
+      "raw_name": "Nerean Freitas",
+      "cases": 49,
+      "avg_frt": 3.62,
+      "med_frt": 1.71,
+      "avg_csat": 4.38,
+      "detractors": 15.4,
+      "det_count": 4,
+      "rated": 26,
+      "is_senior": false,
+      "top_country": "Europa"
+    },
+    {
+      "name": "Nelio Freitas",
+      "raw_name": "Nelio Freitas",
+      "cases": 45,
+      "avg_frt": 1.29,
+      "med_frt": 0.45,
+      "avg_csat": 4.42,
+      "detractors": 12.5,
+      "det_count": 3,
+      "rated": 24,
       "is_senior": false,
       "top_country": "Europa"
     },
     {
       "name": "Ashley Cruz",
       "raw_name": "Ashley Cruz",
-      "cases": 25,
-      "avg_frt": 7.9,
-      "med_frt": 3.13,
-      "avg_csat": 4.56,
-      "detractors": 11.1,
-      "det_count": 2,
-      "rated": 18,
-      "is_senior": false,
-      "top_country": "BR"
-    },
-    {
-      "name": "Ana Carolina Arias",
-      "raw_name": "Ana Carolina Arias",
-      "cases": 17,
-      "avg_frt": 3.61,
-      "med_frt": 0.65,
+      "cases": 40,
+      "avg_frt": 5.7,
+      "med_frt": 1.53,
       "avg_csat": 5.0,
       "detractors": 0.0,
       "det_count": 0,
-      "rated": 7,
+      "rated": 23,
+      "is_senior": false,
+      "top_country": "Europa"
+    },
+    {
+      "name": "Diego Colmenares",
+      "raw_name": "Diego Colmenares",
+      "cases": 39,
+      "avg_frt": 2.98,
+      "med_frt": 2.08,
+      "avg_csat": 4.33,
+      "detractors": 14.3,
+      "det_count": 3,
+      "rated": 21,
+      "is_senior": false,
+      "top_country": "Europa"
+    },
+    {
+      "name": "Juan Vega",
+      "raw_name": "Juan Vega",
+      "cases": 38,
+      "avg_frt": 2.14,
+      "med_frt": 1.98,
+      "avg_csat": 4.95,
+      "detractors": 0.0,
+      "det_count": 0,
+      "rated": 22,
+      "is_senior": false,
+      "top_country": "Europa"
+    },
+    {
+      "name": "Belkys Garcia",
+      "raw_name": "Belkys Garcia",
+      "cases": 31,
+      "avg_frt": 1.61,
+      "med_frt": 1.21,
+      "avg_csat": 4.4,
+      "detractors": 15.0,
+      "det_count": 3,
+      "rated": 20,
       "is_senior": false,
       "top_country": "Europa"
     },
     {
       "name": "Egalis Jimenez",
       "raw_name": "Egalis Jimenez",
-      "cases": 7,
-      "avg_frt": 0.9,
-      "med_frt": 0.61,
-      "avg_csat": 3.67,
-      "detractors": 33.3,
+      "cases": 28,
+      "avg_frt": 0.98,
+      "med_frt": 0.73,
+      "avg_csat": 4.26,
+      "detractors": 15.8,
+      "det_count": 3,
+      "rated": 19,
+      "is_senior": false,
+      "top_country": "Europa"
+    },
+    {
+      "name": "Ana Carolina Arias",
+      "raw_name": "Ana Carolina Arias",
+      "cases": 25,
+      "avg_frt": 3.01,
+      "med_frt": 0.6,
+      "avg_csat": 4.86,
+      "detractors": 0.0,
+      "det_count": 0,
+      "rated": 14,
+      "is_senior": false,
+      "top_country": "Europa"
+    },
+    {
+      "name": "Sugli Perez",
+      "raw_name": "Sugli Perez",
+      "cases": 25,
+      "avg_frt": 3.28,
+      "med_frt": 1.97,
+      "avg_csat": 4.43,
+      "detractors": 7.1,
       "det_count": 1,
+      "rated": 14,
+      "is_senior": false,
+      "top_country": "Europa"
+    },
+    {
+      "name": "Miguel Santana",
+      "raw_name": "Miguel Santana",
+      "cases": 18,
+      "avg_frt": 4.63,
+      "med_frt": 1.26,
+      "avg_csat": 4.8,
+      "detractors": 0.0,
+      "det_count": 0,
+      "rated": 10,
+      "is_senior": false,
+      "top_country": "BR"
+    },
+    {
+      "name": "Alejandra Montoya",
+      "raw_name": "Alejandra Montoya",
+      "cases": 5,
+      "avg_frt": 0.49,
+      "med_frt": 0.39,
+      "avg_csat": 5.0,
+      "detractors": 0.0,
+      "det_count": 0,
       "rated": 3,
       "is_senior": false,
-      "top_country": "CL"
+      "top_country": "Europa"
     }
   ],
   "stages": [
     {
+      "stage": "Otros",
+      "count": 155,
+      "csat": 4.76,
+      "frt": 1.71,
+      "emoji": "\ud83d\udfe1"
+    },
+    {
       "stage": "PayIn",
-      "count": 107,
-      "csat": 4.6,
-      "frt": 3.46,
+      "count": 152,
+      "csat": 4.48,
+      "frt": 3.59,
       "emoji": "\ud83d\udfe1"
     },
     {
       "stage": "KYC/Cuenta",
-      "count": 72,
-      "csat": 4.71,
-      "frt": 2.31,
-      "emoji": "\u2705"
+      "count": 146,
+      "csat": 4.81,
+      "frt": 3.66,
+      "emoji": "\ud83d\udfe1"
     },
     {
       "stage": "Remesas",
-      "count": 48,
-      "csat": 4.5,
-      "frt": 2.34,
-      "emoji": "\u2705"
-    },
-    {
-      "stage": "Otros",
-      "count": 40,
-      "csat": 4.75,
-      "frt": 2.08,
-      "emoji": "\u2705"
+      "count": 87,
+      "csat": 4.69,
+      "frt": 3.11,
+      "emoji": "\ud83d\udfe1"
     },
     {
       "stage": "PayOut",
-      "count": 25,
-      "csat": 4.08,
-      "frt": 1.34,
-      "emoji": "\ud83d\udfe1"
+      "count": 44,
+      "csat": 3.41,
+      "frt": 1.4,
+      "emoji": "\ud83d\udd34"
     },
     {
       "stage": "Reembolsos",
       "count": 1,
-      "csat": null,
-      "frt": 0.52,
+      "csat": 5.0,
+      "frt": 1.14,
       "emoji": "\u2705"
     }
   ],
   "ai": {
-    "total_convos": 853,
+    "total_convos": 1178,
     "ai_convos": 0,
-    "human_convos": 853,
+    "human_convos": 1178,
     "contained": 0,
     "containment_rate": 0.0
   },
   "intents": [
     {
       "name": "greeting",
-      "count": 454
-    },
-    {
-      "name": "falla_de_la_app",
-      "count": 273
-    },
-    {
-      "name": "demoras_a_venezuela",
-      "count": 166
+      "count": 652
     },
     {
       "name": "agente",
-      "count": 120
+      "count": 268
     },
     {
       "name": "specific_remittance_intent",
-      "count": 87
+      "count": 203
+    },
+    {
+      "name": "falla_de_la_app",
+      "count": 200
     },
     {
       "name": "bye",
-      "count": 82
-    },
-    {
-      "name": "datos_errados",
-      "count": 64
-    },
-    {
-      "name": "payin_transfero",
-      "count": 45
+      "count": 154
     },
     {
       "name": "cuenta_de_vb_suspendida",
-      "count": 41
+      "count": 106
     },
     {
-      "name": "env\u00edo_expirado",
-      "count": 32
+      "name": "demoras_a_venezuela",
+      "count": 91
+    },
+    {
+      "name": "datos_errados",
+      "count": 88
     },
     {
       "name": "cuenta_limitada",
-      "count": 31
+      "count": 75
     },
     {
-      "name": "aumentar_limite",
+      "name": "env\u00edo_expirado",
+      "count": 43
+    },
+    {
+      "name": "payin_transfero",
+      "count": 25
+    },
+    {
+      "name": "chile_ejemplo_contingencia",
       "count": 1
     }
   ],
   "flows": [
     {
       "name": "Main",
-      "count": 426
-    },
-    {
-      "name": "Ayuda adicional",
-      "count": 264
+      "count": 603
     },
     {
       "name": "PreHandoff",
-      "count": 262
-    },
-    {
-      "name": "FALLA: ERRORES APP",
-      "count": 259
-    },
-    {
-      "name": "Handoff",
-      "count": 254
+      "count": 353
     },
     {
       "name": "RATING",
-      "count": 249
+      "count": 346
     },
     {
-      "name": "Confirmar Pa\u00eds",
-      "count": 191
+      "name": "Handoff",
+      "count": 345
     },
     {
-      "name": "FALLA: ERRORES DE PAYOUT",
-      "count": 162
+      "name": "Ayuda adicional",
+      "count": 232
     },
     {
       "name": "Fallback",
-      "count": 149
+      "count": 229
+    },
+    {
+      "name": "Confirmar Pa\u00eds",
+      "count": 195
+    },
+    {
+      "name": "FALLA: ERRORES APP",
+      "count": 177
     },
     {
       "name": "Bye",
-      "count": 88
+      "count": 165
     },
     {
       "name": "Estados de Remesa",
-      "count": 66
-    },
-    {
-      "name": "Datos Errados",
-      "count": 62
-    },
-    {
-      "name": "1. Estado de mi remesa",
-      "count": 51
-    },
-    {
-      "name": "1.1 Ver estado de mi remesa",
-      "count": 40
-    },
-    {
-      "name": "Payin - Transfero",
-      "count": 39
-    },
-    {
-      "name": "1.3 Env\u00edo expirado",
-      "count": 37
+      "count": 162
     },
     {
       "name": "FALLA: ERRORES DE PAYIN",
-      "count": 33
+      "count": 104
+    },
+    {
+      "name": "FALLA: ERRORES DE PAYOUT",
+      "count": 84
+    },
+    {
+      "name": "Datos Errados",
+      "count": 83
     },
     {
       "name": "Cuenta Limitada",
-      "count": 30
+      "count": 68
     },
     {
       "name": "Nueva consulta",
-      "count": 24
+      "count": 66
+    },
+    {
+      "name": "1.1 Ver estado de mi remesa",
+      "count": 50
+    },
+    {
+      "name": "1. Estado de mi remesa",
+      "count": 48
+    },
+    {
+      "name": "1.3 Env\u00edo expirado",
+      "count": 45
     },
     {
       "name": "3. Tiempos de entrega",
-      "count": 20
+      "count": 27
+    },
+    {
+      "name": "Payin - Transfero",
+      "count": 22
     }
   ],
   "country_metrics": {
     "BR": {
       "name": "Brasil",
-      "cases": 97,
-      "frt_avg": 4.0,
-      "csat": 4.63,
-      "det_pct": 7.0
-    },
-    "CO": {
-      "name": "Colombia",
-      "cases": 45,
-      "frt_avg": 3.26,
-      "csat": 4.63,
-      "det_pct": 7.4
-    },
-    "VE": {
-      "name": "Venezuela",
-      "cases": 14,
-      "frt_avg": 2.76,
-      "csat": 4.67,
-      "det_pct": 0.0
-    },
-    "Europa": {
-      "name": "Europa",
-      "cases": 83,
-      "frt_avg": 1.68,
-      "csat": 4.65,
-      "det_pct": 2.9
-    },
-    "CL": {
-      "name": "Chile",
-      "cases": 47,
-      "frt_avg": 1.04,
-      "csat": 4.2,
-      "det_pct": 20.0
-    },
-    "PE": {
-      "name": "Peru",
-      "cases": 4,
-      "frt_avg": 0.74,
+      "cases": 36,
+      "frt_avg": 1.94,
       "csat": 5.0,
       "det_pct": 0.0
     },
-    "EC": {
-      "name": "Ecuador",
+    "CO": {
+      "name": "Colombia",
+      "cases": 69,
+      "frt_avg": 3.66,
+      "csat": 4.41,
+      "det_pct": 10.8
+    },
+    "Europa": {
+      "name": "Europa",
+      "cases": 277,
+      "frt_avg": 3.1,
+      "csat": 4.69,
+      "det_pct": 5.7
+    },
+    "CL": {
+      "name": "Chile",
+      "cases": 173,
+      "frt_avg": 2.56,
+      "csat": 3.78,
+      "det_pct": 30.6
+    },
+    "VE": {
+      "name": "Venezuela",
+      "cases": 18,
+      "frt_avg": 6.06,
+      "csat": 4.83,
+      "det_pct": 0.0
+    },
+    "PE": {
+      "name": "Peru",
+      "cases": 8,
+      "frt_avg": 1.78,
+      "csat": 4.2,
+      "det_pct": 20.0
+    },
+    "Otro": {
+      "name": "Otro",
       "cases": 1,
-      "frt_avg": 0.13,
+      "frt_avg": 5.33,
       "csat": 5.0,
       "det_pct": 0.0
     },
     "US": {
       "name": "EEUU",
-      "cases": 2,
-      "frt_avg": 0.83,
-      "csat": 5.0,
-      "det_pct": 0.0
+      "cases": 1,
+      "frt_avg": 1.09,
+      "csat": 0,
+      "det_pct": 0
+    },
+    "AR": {
+      "name": "Argentina",
+      "cases": 1,
+      "frt_avg": 17.54,
+      "csat": 0,
+      "det_pct": 0
+    },
+    "EC": {
+      "name": "Ecuador",
+      "cases": 1,
+      "frt_avg": 0.4,
+      "csat": 0,
+      "det_pct": 0
     }
   },
   "europe_detail": [
     [
       "Espana",
-      77
+      234
     ],
     [
       "Portugal",
-      3
+      20
     ],
     [
-      "Irlanda",
-      2
+      "Italia",
+      8
+    ],
+    [
+      "Alemania",
+      7
+    ],
+    [
+      "Francia",
+      4
+    ],
+    [
+      "Luxemburgo",
+      1
     ],
     [
       "Belgica",
       1
+    ],
+    [
+      "Paises Bajos",
+      1
+    ],
+    [
+      "Malta",
+      1
     ]
   ],
   "providers": {
-    "whatsapp": 852,
-    "facebook": 1
+    "whatsapp": 1175,
+    "facebook": 3
   },
   "recontact": {
-    "count": 24,
-    "total_chats": 260,
-    "pct": 9.2
+    "count": 46,
+    "total_chats": 530,
+    "pct": 8.7
   },
+  "repeat_contacts": [
+    {
+      "name": "Endulza2cakes \ud83c\udf6e\ud83e\udd67\ud83c\udf6e\ud83e\udd67\ud83c\udf6e",
+      "phone": "573138413340",
+      "cases": 4,
+      "ratings": [
+        5,
+        1
+      ],
+      "avg_csat": 3.0
+    },
+    {
+      "name": "~gabriel",
+      "phone": "34647196283",
+      "cases": 3,
+      "ratings": [
+        5
+      ],
+      "avg_csat": 5.0
+    },
+    {
+      "name": "Joseph Manaure",
+      "phone": "34664624056",
+      "cases": 3,
+      "ratings": [
+        5,
+        5
+      ],
+      "avg_csat": 5.0
+    },
+    {
+      "name": "juanuriana97",
+      "phone": "351914204043",
+      "cases": 3,
+      "ratings": [
+        5
+      ],
+      "avg_csat": 5.0
+    },
+    {
+      "name": "Chuno",
+      "phone": "34614140775",
+      "cases": 3,
+      "ratings": [
+        5
+      ],
+      "avg_csat": 5.0
+    },
+    {
+      "name": "Mar\u00eda Alejandra",
+      "phone": "34633865561",
+      "cases": 3,
+      "ratings": [
+        5,
+        5,
+        5
+      ],
+      "avg_csat": 5.0
+    },
+    {
+      "name": "\ud83e\udd0d\ud83c\udf88",
+      "phone": "34625350673",
+      "cases": 3,
+      "ratings": [],
+      "avg_csat": null
+    },
+    {
+      "name": "Tahiler",
+      "phone": "34641067978",
+      "cases": 3,
+      "ratings": [
+        5,
+        5,
+        5
+      ],
+      "avg_csat": 5.0
+    }
+  ],
   "queues": [
     [
       "ATC",
-      226
+      403
     ],
     [
       "Onboarding",
+      114
+    ],
+    [
+      "Comunidad Retorna",
       67
+    ],
+    [
+      "Redes Sociales",
+      1
     ]
   ],
   "top_reasons": [
     {
-      "name": "PayIn - BR Transfero",
-      "total": 65,
+      "name": "Programa de referidos y cupones",
+      "total": 128,
       "countries": [
         [
-          "Brasil",
-          60
+          "Chile",
+          70
+        ],
+        [
+          "Europa",
+          54
         ],
         [
           "Venezuela",
-          3
-        ],
-        [
-          "Colombia",
-          1
+          2
         ]
       ]
     },
     {
       "name": "KYC - Problemas con verificaci\u00f3n",
-      "total": 32,
+      "total": 78,
       "countries": [
         [
           "Europa",
-          14
+          42
         ],
         [
           "Colombia",
-          9
+          15
         ],
         [
           "Brasil",
-          4
+          9
+        ]
+      ]
+    },
+    {
+      "name": "PayIn - Chile Transferencia bancaria",
+      "total": 54,
+      "countries": [
+        [
+          "Chile",
+          54
         ]
       ]
     },
     {
       "name": "PayOut - Banco ca\u00eddo Venezuela",
-      "total": 23,
-      "countries": [
-        [
-          "Chile",
-          13
-        ],
-        [
-          "Colombia",
-          4
-        ],
-        [
-          "Venezuela",
-          3
-        ]
-      ]
-    },
-    {
-      "name": "Cuenta duplicada",
-      "total": 17,
+      "total": 37,
       "countries": [
         [
           "Colombia",
-          5
-        ],
-        [
-          "Brasil",
-          5
+          11
         ],
         [
           "Europa",
-          4
-        ]
-      ]
-    },
-    {
-      "name": "App - Error inesperado al crear env\u00edo",
-      "total": 16,
-      "countries": [
-        [
-          "Brasil",
-          14
-        ],
-        [
-          "Venezuela",
-          2
-        ]
-      ]
-    },
-    {
-      "name": "Cuenta bloqueada compliance",
-      "total": 13,
-      "countries": [
-        [
-          "Europa",
-          6
+          11
         ],
         [
           "Chile",
-          4
-        ],
-        [
-          "Brasil",
-          2
-        ]
-      ]
-    },
-    {
-      "name": "Login - M\u00e9todo de inicio de sesi\u00f3n",
-      "total": 11,
-      "countries": [
-        [
-          "Europa",
-          4
-        ],
-        [
-          "Colombia",
-          3
-        ],
-        [
-          "Chile",
-          3
+          10
         ]
       ]
     },
     {
       "name": "Remesas - Pagada y expirada",
-      "total": 8,
+      "total": 26,
       "countries": [
         [
           "Europa",
-          5
+          20
         ],
         [
           "Chile",
-          1
+          2
         ],
         [
-          "Brasil",
-          1
+          "Colombia",
+          2
         ]
       ]
     },
     {
       "name": "PayIn - Europa Transferencia Bancaria",
-      "total": 7,
+      "total": 24,
       "countries": [
         [
           "Europa",
-          7
+          22
+        ],
+        [
+          "Colombia",
+          2
         ]
       ]
     },
     {
-      "name": "App - Ocurri\u00f3 error inesperado",
-      "total": 7,
+      "name": "Reembolso - Devoluci\u00f3n cuenta bancaria",
+      "total": 20,
       "countries": [
         [
-          "Brasil",
+          "Europa",
+          12
+        ],
+        [
+          "Colombia",
+          6
+        ],
+        [
+          "Chile",
+          2
+        ]
+      ]
+    },
+    {
+      "name": "Cuenta duplicada",
+      "total": 18,
+      "countries": [
+        [
+          "Europa",
           7
+        ],
+        [
+          "Chile",
+          5
+        ],
+        [
+          "Colombia",
+          3
+        ]
+      ]
+    },
+    {
+      "name": "Saldo - Saldo a favor y uso",
+      "total": 16,
+      "countries": [
+        [
+          "Europa",
+          13
+        ],
+        [
+          "Colombia",
+          1
+        ],
+        [
+          "Brasil",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "Seguimiento y validaci\u00f3n de remesas",
+      "total": 15,
+      "countries": [
+        [
+          "Europa",
+          9
+        ],
+        [
+          "Colombia",
+          2
+        ],
+        [
+          "Brasil",
+          2
         ]
       ]
     }
